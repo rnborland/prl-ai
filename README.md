@@ -1,87 +1,35 @@
-# PRL — Process Reasoning Layer
+# PRL-AI
 
-A control-plan-driven reasoning layer for time-series data.
+## Process Reasoning Layer
 
----
+The Process Reasoning Layer (PRL) is an AI-assisted operational reasoning framework designed to augment existing industrial, commercial, and technical systems.
 
-## What This Is
+Rather than replacing existing control systems, historians, optimization platforms, or operators, PRL provides an intelligent reasoning layer that helps personnel understand operational situations, access relevant knowledge, analyze historical events, and make more informed decisions.
 
-PRL monitors time-series data and evaluates whether a process is behaving as expected.
+PRL combines:
 
-It uses:
+* Time-series process data
+* Engineering documentation
+* Operating procedures
+* Historical events
+* Institutional knowledge
+* Modern AI reasoning systems
 
-- Control Plans (engineering-defined rules)
-- Time-series data
-- Process documentation
-- AI-based reasoning
+into a unified decision-support framework.
 
----
+### Core Principles
 
-## Core Concept
+* Augment existing systems
+* Preserve human decision-making authority
+* Improve operational awareness
+* Reduce cognitive overload
+* Capture institutional knowledge
+* Accelerate troubleshooting
+* Support training and knowledge transfer
 
-Control Plan → Defines expected behavior  
-Data → Shows actual behavior  
-PRL → Detects drift and explains it  
+### Vision
 
----
+Just as SCADA systems, historians, dashboards, and Industrial IoT platforms became standard infrastructure, AI-assisted reasoning layers are expected to become a common component of future industrial systems.
 
-## Features
-
-- Time-series monitoring
-- Control plan evaluation
-- Drift detection (not just alarms)
-- Rate-of-change tracking
-- Operator notes
-- AI-based explanation layer
-
----
-
-## Running the Apps
-
-### Dashboard
-
-streamlit run app/prl_dashboard.py --server.port 8510
-
-### Control Plan Builder
-
-streamlit run app/prl_control_plan_builder.py --server.port 8511
-
-
----
-
-## Data Sources
-
-PRL works with any time-series data source, including:
-
-- SCADA systems
-- DCS systems
-- IIoT platforms
-- APIs or databases
-
-PRL does not require a specific data stack.
-
----
-
-## API Requirement
-
-PRL uses a backend reasoning service.
-
-If no API key is configured, reasoning will return:
-
-Explanation failed: 401 Invalid or expired token
-
-
-To enable reasoning, configure:
-
-PRL_API_KEY
-BACKEND_BASE_URL
-
-
----
-
-## Notes
-
-This repository contains the PRL framework only.
-
-Deployment, data pipelines, and integrations are environment-specific.
+The objective of this project is to explore, develop, and demonstrate practical applications of Process Reasoning Layer technology.
 
