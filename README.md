@@ -4,6 +4,10 @@
 
 ## An AI-Assisted Operational Reasoning Framework for Industrial Systems
 
+<p align="center">
+  <img src="prl_architecture_v1.png" width="100%">
+</p>
+
 ---
 
 ## Introduction
