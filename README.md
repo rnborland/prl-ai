@@ -8,6 +8,7 @@
   <img src="prl_architecture_v1.png" width="100%">
 </p>
 
+*Figure 1. Example Process Reasoning Layer (PRL) architecture showing how AI-assisted reasoning can operate alongside existing industrial systems without modifying existing control infrastructure.*
 ---
 
 ## Introduction
