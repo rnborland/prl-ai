@@ -15,7 +15,7 @@ COLUMNS = [
     "process_stage", "stage_min", "stage_max",
     "allow_operator_override", "override_type",
     "priority", "expected_pattern",
-    "reaction_plan", "document_reference",
+    "reaction_plan", "document_reference", "pdf_term",
     "missing_data_action", "enabled",
 ]
 
@@ -136,6 +136,13 @@ for i in range(int(row_count)):
             key=f"docref_{i}",
         )
 
+        pdf_term = st.text_input(
+            "PDF Term",
+            "",
+            key=f"pdf_term_{i}",
+            help="Exact term used in the process documentation."
+        )
+
     rows.append({
         "asset_id": asset_id,
         "asset_name": asset_name,
@@ -170,6 +177,7 @@ for i in range(int(row_count)):
         "document_reference": document_reference,
         "missing_data_action": missing_data_action,
         "enabled": enabled,
+        "pdf_term": pdf_term,
     })
 
 df = pd.DataFrame(rows, columns=COLUMNS)
