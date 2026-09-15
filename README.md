@@ -110,7 +110,7 @@ The PRL application and reference implementation are published in this repositor
 
 PRL is not presented as a completely open AI stack. The current implementation can depend on external API services and AI models whose internal model implementations may be proprietary. Those dependencies should be distinguished from the publicly inspectable PRL application code and reference architecture contained in this repository.
 
-**Licensing note:** Publicly visible source code is not, by itself, an open-source software license. No broader license grant should be inferred unless a LICENSE file is added to this repository.
+The PRL reference implementation is open-source software licensed under the **Apache License, Version 2.0**. The license permits use, modification, and distribution subject to the terms and conditions in the repository's `LICENSE` file.
 
 ---
 
@@ -216,6 +216,16 @@ This GitHub repository remains the technical and transparency home for the PRL r
 ## Collaboration
 
 Discussion, collaboration, and constructive feedback are welcome from engineers, operators, manufacturers, utilities, researchers, universities, software developers, industrial technology providers, and organizations interested in practical and responsible industrial AI.
+
+---
+
+## License
+
+PRL is licensed under the **Apache License, Version 2.0**.
+
+Copyright 2026 Integra Developments LLC.
+
+See the [`LICENSE`](LICENSE) file for the complete license terms.
 
 ---
 
